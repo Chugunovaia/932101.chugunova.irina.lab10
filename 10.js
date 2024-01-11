@@ -21,7 +21,7 @@ lamp.addEventListener('click', () => {
   content.classList.toggle('hidden');
 });
 
-function changeAnimals()
+function Change()
 {
   rabbit.classList.toggle('putInHat');
   rabbit.classList.toggle('pullOutOfHat');
@@ -29,6 +29,7 @@ function changeAnimals()
   pigeon.classList.toggle('pullOutOfHat');
 }
 
-rabbit.addEventListener('click', changeAnimals);
 
-pigeon.addEventListener('click', changeAnimals);
+rabbit.addEventListener('click', Change);
+
+pigeon.addEventListener('click', Change);
